@@ -1,0 +1,27 @@
+# Ignore compiled files and binaries
+*.o
+*.out
+*.a
+*.so
+*.exe
+*.dll
+
+# Ignore Lex and Yacc-generated files
+lex.yy.c
+y.tab.c
+y.tab.h
+
+# Ignore build artifacts
+build/
+*.dSYM/
+
+# Ignore editor and OS-generated files
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Ignore logs and debug files
+*.log
+*.stackdump
